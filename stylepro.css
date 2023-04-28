@@ -32,7 +32,7 @@ body {
     border-radius: 20px;
     font-size: 1.6rem;
     font-family: "Montserrat";
-    width: 800px;
+    width: 60%;
     height: 200px;
 
     margin: 5% 25%;
@@ -56,6 +56,11 @@ input {
     box-shadow: inset;
     padding: 2px 2px 3px;
     letter-spacing: 4px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 10px;
+    
 }
 .footer-section {
     text-align: center;
@@ -73,4 +78,57 @@ input {
     padding:1%;
     margin: 20px 10px;
     font-size: 2rem;
+}
+#inputType{
+    height: 48px;
+    border-radius: 8px;
+    border: 2px solid black;
+    
+}
+
+#resultType{
+    height: 48px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+@media all and (min-width:320px) and (max-width:480px){
+    .len-heading{
+        width: 100%;
+    }
+    .length-box{
+        
+        width: 95%;
+        height: 220px;
+        margin: auto;
+    }
+    input{
+        width: 80%;
+    }
+    #resultType{
+        width: 80%;
+    }
+    #inputType{
+        width: 80%;
+    }
+}
+
+@media all and (min-width:481px) and (max-width:768px){
+    .len-heading{
+        width: 100%;
+    }
+    .length-box{
+        
+        width: 95%;
+        height: 220px;
+        margin: auto;
+    }
+    input{
+        width: 80%;
+    }
+    #resultType{
+        width: 80%;
+    }
+    #inputType{
+        width: 80%;
+    }
 }
